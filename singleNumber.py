@@ -1,3 +1,5 @@
+# time complexity O(n + nlogn) ~ O(n)
+# space complexity O(n)
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         num_count_hash = {}
